@@ -14,6 +14,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated ShellCode task to use file upload of raw binary
 - Updated streaming tasks to autoflush the console
 - Updated Keylogger to handle VK_PACKET virtual keys
+- Update max LauncherString length in UI
+- Changed Grunt ActivationTime and Events to not update on reconnected Lost grunt
+- Lock task execution during upload, display upload load animation
 
 ### Fixed
 - Fix edit roles for CovenantUser UI bug
@@ -31,6 +34,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix Download Task adding extra byte to files
 - Fix Download task exception on unexpected output
 - Fix credential tracking missing some credentials
+- Fix credential tracking missing Kerberos tickets
+- Fixed missing DonutCore nuget package
 
 ## [v0.6] - 2020-08-04
 ### Added
